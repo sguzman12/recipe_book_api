@@ -23,8 +23,15 @@ app.get("/api/readData", async (req, res) => {
 
 // Write data to the JSON file
 app.post("/api/writeData", async (req, res) => {
+  console.log(req.body);
   try {
-    await fs.writeFile(dataURL, JSON.stringify(req.body, null, 2));
+    // Read existing data from the file
+    const existingData = await fs.readFile(dataURL, "utf-8");
+    const parsedData = JSON.parse(existingData);
+
+    parsedData.recipes.push(...req.body.recipes);
+
+    await fs.writeFile(dataURL, JSON.stringify(parsedData, null, 2));
     res.json({ message: "Data written successfully" });
   } catch (err) {
     console.error(err);
