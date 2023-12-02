@@ -7,16 +7,24 @@
       "description": "Chicken Caesar Salad is an easy favorite dinner or lunch. Juicy seasoned chicken breasts served over a crisp salad with a quick caesar dressing.",
       "ingredients": [
         {
-          "ing_name": "Chicken"
+          "ingredient": {
+            "ing_name": "Chicken"
+          }
         },
         {
-          "ing_name": "Croutons"
+          "ingredient": {
+            "ing_name": "Croutons"
+          }
         },
         {
-          "ing_name": "Parmesan Cheese"
+          "ingredient": {
+            "ing_name": "Parmesan Cheese"
+          }
         },
         {
-          "ing_name": "Romaine Lettuce"
+          "ingredient": {
+            "ing_name": "Romaine Lettuce"
+          }
         }
       ]
     },
@@ -27,40 +35,64 @@
       "description": "Are we even surprised? By now we already know the air fryer is supreme. The fact that crispy golden chicken can be achieved without the use of any oil whatsoever is amazing and that's not to mention how quickly the air fryer can do it! There's no need to turn on your oven or make a whole oily mess on your stovetop: This chicken parm tastes every bit as good as the traditional version with much less effort to get there.",
       "ingredients": [
         {
-          "ing_name": "2 large skinless, boneless chicken breasts"
+          "ingredient": {
+            "ing_name": "2 large skinless, boneless chicken breasts"
+          }
         },
         {
-          "ing_name": "Freshly ground black pepper"
+          "ingredient": {
+            "ing_name": "Freshly ground black pepper"
+          }
         },
         {
-          "ing_name": "1/3 c. all-purpose flour"
+          "ingredient": {
+            "ing_name": "1/3 c. all-purpose flour"
+          }
         },
         {
-          "ing_name": "2 large eggs"
+          "ingredient": {
+            "ing_name": "2 large eggs"
+          }
         },
         {
-          "ing_name": "1 c. panko bread crumbs"
+          "ingredient": {
+            "ing_name": "1 c. panko bread crumbs"
+          }
         },
         {
-          "ing_name": "1/4 c. freshly grated Parmesan"
+          "ingredient": {
+            "ing_name": "1/4 c. freshly grated Parmesan"
+          }
         },
         {
-          "ing_name": "1 tsp. dried oregano"
+          "ingredient": {
+            "ing_name": "1 tsp. dried oregano"
+          }
         },
         {
-          "ing_name": "1/2 tsp. crushed red pepper flakes"
+          "ingredient": {
+            "ing_name": "1/2 tsp. crushed red pepper flakes"
+          }
         },
         {
-          "ing_name": "1/2 tsp. garlic powder"
+          "ingredient": {
+            "ing_name": "1/2 tsp. garlic powder"
+          }
         },
         {
-          "ing_name": "1 c. marinara"
+          "ingredient": {
+            "ing_name": "1 c. marinara"
+          }
         },
         {
-          "ing_name": "1 c. shredded mozzarella"
+          "ingredient": {
+            "ing_name": "1 c. shredded mozzarella"
+          }
         },
         {
-          "ing_name": "Freshly chopped parsley, for garnish"
+          "ingredient": {
+            "ing_name": "Freshly chopped parsley, for garnish"
+          }
         }
       ]
     },
@@ -71,35 +103,19 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "ingredients": [
         {
-          "ing_name": "Porterhouse Steak"
+          "ingredient": {
+            "ing_name": "Porterhouse Steak"
+          }
         },
         {
-          "ing_name": "Salt"
+          "ingredient": {
+            "ing_name": "Salt"
+          }
         },
         {
-          "ing_name": "Garlic"
-        }
-      ]
-    },
-    {
-      "title": "Brownie Mix",
-      "category": "Dessert",
-      "url_img": "",
-      "description": "Yummy from scratch brownies",
-      "ingredients": [
-        {
-          "ing_name": "Betty Crocker Brownie Mix"
-        }
-      ]
-    },
-    {
-      "title": "a Mix",
-      "category": "Dessert",
-      "url_img": "",
-      "description": "Yummy from scratch brownies",
-      "ingredients": [
-        {
-          "ing_name": "Betty Crocker Brownie Mix"
+          "ingredient": {
+            "ing_name": "Garlic"
+          }
         }
       ]
     }

@@ -1,0 +1,50 @@
+{
+  "recipes": [
+    {
+      "title": "Chicken Caesar Salad",
+      "category": "Salad",
+      "url_img": "assets/images/chicken_caesar_salad_thumbnail.png",
+      "description": "Chicken Caesar Salad is an easy favorite dinner or lunch. Juicy seasoned chicken breasts served over a crisp salad with a quick caesar dressing.",
+      "ingredients": [
+        {
+          "ingredient": {
+            "ing_name": "Chicken"
+          }
+        },
+        {
+          "ingredient": {
+            "ing_name": "Croutons"
+          }
+        },
+        {
+          "ingredient": {
+            "ing_name": "Parmesan Cheese"
+          }
+        },
+        {
+          "ingredient": {
+            "ing_name": "Romaine Lettuce"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Hola",
+      "category": "Salad",
+      "url_img": "",
+      "description": "Aloha",
+      "ingredients": [
+        {
+          "ingredient": {
+            "ing_name": "Hello"
+          }
+        },
+        {
+          "ingredient": {
+            "ing_name": "World"
+          }
+        }
+      ]
+    }
+  ]
+}
