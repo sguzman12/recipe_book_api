@@ -1,7 +1,8 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const cors = require("cors");
-const fs = require("fs").promises;
+import { generateUploadURL } from "./s3.js";
+import express from "express";
+import bodyParser from "body-parser";
+import cors from "cors";
+import { promises as fs } from "fs";
 
 const app = express();
 const PORT = 3000;
@@ -10,6 +11,7 @@ const dataURL = "./assets/data/recipes.json";
 app.use(bodyParser.json());
 app.use(cors());
 
+/** GET requests */
 // Read data from the JSON file
 app.get("/api/readData", async (req, res) => {
   try {
@@ -21,6 +23,18 @@ app.get("/api/readData", async (req, res) => {
   }
 });
 
+// Retrieve Secure URL from S3 server
+app.get("/api/s3URL", async (req, res) => {
+  const imageType = req.query.imageType;
+  console.log("Image Type: ", imageType);
+  const url = await generateUploadURL(imageType);
+  console.log(url);
+  res.send(url);
+});
+
+/** /GET requests*/
+
+/** POST requests */
 // Write data to the JSON file
 app.post("/api/writeData", async (req, res) => {
   console.log(req.body);
@@ -38,6 +52,8 @@ app.post("/api/writeData", async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 });
+
+/** /POST requests */
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
